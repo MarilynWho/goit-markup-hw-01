@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
 :root {
 	--main-text-light: #ffffff;
 	--bg-color-dark: #2f303a;
-	--main-font-family: "Roboto";
+	--main-font-family: "Roboto", sans-serif;
 	--link-color: #2196f3;
 	--main-text-dark: #212121;
+	--filter-color: #f5f4fa;
+	--contacts-color: #757575;
 }
-
+/* @font-face {
+    font-family: "font of all knowledge";
+} */
 body {
 	font-family: var(--main-font-family);
 	font-style: normal;
@@ -28,6 +34,7 @@ body {
 	font-family: "Raleway", sans-serif;
 	color: var(--logo-color);
 	font-size: 26px;
+	font-weight: 700;
 }
 
 .lefttop {
@@ -40,7 +47,9 @@ body {
 .points-list,
 .img-list,
 .team-list,
-.contacts-list {
+.contacts-list,
+.options-list,
+.filter-list {
 	list-style: none;
 }
 
@@ -57,7 +66,6 @@ body {
 }
 
 .contacts {
-	--contacts-color: #757575;
 	color: var(--contacts-color);
 	font-weight: 500;
 	font-size: 14px;
@@ -85,9 +93,7 @@ body {
 	height: 120px;
 }
 
-.main-button {
-	background: var(--link-color);
-	color: var(--main-text-light);
+.button {
 	font-weight: 700;
 	font-size: 16px;
 	letter-spacing: 0.06em;
@@ -97,14 +103,28 @@ body {
 	cursor: pointer;
 }
 
-.points {
+.main-button,
+.filter-button:hover,
+.filter-button:focus {
+	background: var(--link-color);
+	color: var(--main-text-light);
+}
+
+.filter-button {
+	background: var(--filter-color);
+	color: var(--main-text-dark);
+}
+
+.points,
+.filter,
+.options {
 	display: none;
 }
 
 .points-title {
 	font-weight: 700;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.15;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #212121;
@@ -112,7 +132,7 @@ body {
 
 .points-p {
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.7;
 	letter-spacing: 0.03em;
 	color: #757575;
 }
@@ -121,7 +141,7 @@ body {
 	color: var(--main-text-dark);
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 42px;
+	line-height: 1.15;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -130,14 +150,14 @@ body {
 	color: var(--main-text-dark);
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 19px;
+	line-height: 1.2;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
 
 .team-title {
 	font-size: 16px;
-	line-height: 19px;
+	line-height: 1.2;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: #757575;
@@ -147,7 +167,8 @@ body {
 	background: var(--bg-color-dark);
 }
 
-.logo-left-btm {
+.logo-left-btm,
+.lefttop-portf {
 	--logo-color: var(--link-color);
 }
 
@@ -163,6 +184,21 @@ address {
 .adrs {
 	color: var(--main-text-light);
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+}
+
+.options-title {
+	color: var(--main-text-dark);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.options-type {
+	color: var(--contacts-color);
+	font-size: 16px;
+	line-height: 1.9;
 	letter-spacing: 0.03em;
 }
