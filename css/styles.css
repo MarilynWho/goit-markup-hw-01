@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+	--main-text-light: #ffffff;
+	--bg-color-dark: #2f303a;
+	--main-font-family: "Roboto", sans-serif;
+	--link-color: #2196f3;
+	--main-text-dark: #212121;
+	--filter-color: #f5f4fa;
+	--contacts-color: #757575;
+}
+/* @font-face {
+    font-family: "font of all knowledge";
+} */
+body {
+	font-family: var(--main-font-family);
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	font-weight: 400;
+}
+
+.logo-link,
+.nav-list-item,
+.contacts,
+.adrs {
+	text-decoration: none;
+	font-family: inherit;
+	font-style: inherit;
+}
+
+.logo {
+	--logo-color: #000000;
+	font-family: "Raleway", sans-serif;
+	color: var(--logo-color);
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.lefttop {
+	--logo-color: var(--link-color);
+	-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 1px;
+}
+
+.nav-list,
+.points-list,
+.img-list,
+.team-list,
+.contacts-list,
+.options-list,
+.filter-list {
+	list-style: none;
+}
+
+.nav-list-item {
+	--nav-color: var(--main-text-dark);
+	color: var(--nav-color);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+	--nav-color: var(--link-color);
+}
+
+.contacts {
+	color: var(--contacts-color);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.contacts:hover,
+.contacts:focus {
+	--contacts-color: var(--link-color);
+}
+
+.main {
+	background: var(--bg-color-dark);
+	width: 1600px;
+	height: 600px;
+	text-align: center;
+}
+.main-title {
+	color: var(--main-text-light);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	width: 700px;
+	height: 120px;
+}
+
+.button {
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 0.06em;
+	padding: 10px 32px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.main-button,
+.filter-button:hover,
+.filter-button:focus {
+	background: var(--link-color);
+	color: var(--main-text-light);
+}
+
+.filter-button {
+	background: var(--filter-color);
+	color: var(--main-text-dark);
+}
+
+.points,
+.filter,
+.options {
+	display: none;
+}
+
+.points-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.15;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #212121;
+}
+
+.points-p {
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+.sub-title {
+	color: var(--main-text-dark);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.15;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.team-name {
+	color: var(--main-text-dark);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.team-title {
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+.bottom {
+	background: var(--bg-color-dark);
+}
+
+.logo-left-btm,
+.lefttop-portf {
+	--logo-color: var(--link-color);
+}
+
+.logo-right-btm {
+	--logo-color: var(--main-text-light);
+}
+
+address {
+	font-family: inherit;
+	font-style: inherit;
+}
+
+.adrs {
+	color: var(--main-text-light);
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+}
+
+.options-title {
+	color: var(--main-text-dark);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.options-type {
+	color: var(--contacts-color);
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.03em;
+}
