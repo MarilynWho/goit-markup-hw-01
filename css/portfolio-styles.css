@@ -1,0 +1,35 @@
+.underline {
+	border-bottom: 1px solid var(--filter-color);
+}
+
+.filter-list {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+}
+
+.filter-button {
+	margin: 95px 5px 50px 5px;
+}
+
+.options-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.options-list-item {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: 1px solid var(--filter-color);
+}
+
+.options-title {
+    margin: 20px;
+}
+
+.options-type {
+    margin: 0px auto 20px 20px;
+}
