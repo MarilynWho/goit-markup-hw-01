@@ -18,9 +18,12 @@ body {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	font-weight: 400;
+	margin: 0;
+	padding: 0;
 }
 
 .logo-link,
+.logo-link-btm,
 .nav-list-item,
 .contacts,
 .adrs {
@@ -48,6 +51,7 @@ body {
 .img-list,
 .team-list,
 .contacts-list,
+.contacts-list-bottom,
 .options-list,
 .filter-list {
 	list-style: none;
@@ -61,7 +65,9 @@ body {
 }
 
 .nav-list-item:hover,
-.nav-list-item:focus {
+.nav-list-item:focus,
+.address:hover,
+.address:focus {
 	--nav-color: var(--link-color);
 }
 
@@ -78,9 +84,6 @@ body {
 
 .main {
 	background: var(--bg-color-dark);
-	width: 1600px;
-	height: 600px;
-	text-align: center;
 }
 .main-title {
 	color: var(--main-text-light);

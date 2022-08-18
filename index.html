@@ -6,67 +6,74 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/index-styles.css" />
 	</head>
 	<body>
 		<header>
 			<!-- Navigation -->
-			<nav>
-				<!-- Logo -->
-				<a href="./index.html" class="logo-link"
-					><span class="logo lefttop">Web</span
-					><span class="logo">Studio</span></a
-				>
-				<!-- menu -->
-				<ul class="nav-list">
-					<li><a href="./index.html" class="nav-list-item">Студія</a></li>
-					<li><a href="./portfolio.html" class="nav-list-item">Портфоліо</a></li>
-					<li><a href="#" class="nav-list-item">Контакти</a></li>
-				</ul>
-			</nav>
-			<!-- Contacts -->
-			<ul class="contacts-list">
-				<!-- e-mail -->
-				<li>
-					<a href="mailto:info@devstudio.com?subject=Hello" class="contacts"
-						>info@devstudio.com</a
+			<div class="all-links">
+				<nav class="navigation">
+					<!-- Logo -->
+					<a href="./index.html" class="logo-link"
+						><span class="logo lefttop">Web</span
+						><span class="logo">Studio</span></a
 					>
-				</li>
-				<!-- phone number -->
-				<li>
-					<a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
-				</li>
-			</ul>
+					<!-- menu -->
+					<ul class="nav-list">
+						<li><a href="./index.html" class="nav-list-item">Студія</a></li>
+						<li>
+							<a href="./portfolio.html" class="nav-list-item">Портфоліо</a>
+						</li>
+						<li><a href="#" class="nav-list-item">Контакти</a></li>
+					</ul>
+				</nav>
+				<!-- Contacts -->
+				<ul class="contacts-list">
+					<!-- e-mail -->
+					<li>
+						<a href="mailto:info@devstudio.com?subject=Hello" class="contacts"
+							>info@devstudio.com</a
+						>
+					</li>
+					<!-- phone number -->
+					<li>
+						<a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+					</li>
+				</ul>
+			</div>
 		</header>
 		<!-- Main content -->
 		<main>
 			<section class="main">
 				<h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-				<button type="button" class="button main-button">Замовити послугу</button>
+				<button type="button" class="button main-button">
+					Замовити послугу
+				</button>
 			</section>
 			<section>
 				<h2 class="points">Наші особливості</h2>
 				<ul class="points-list">
-					<li>
+					<li class="pints-item">
 						<h3 class="points-title">Увага до деталей</h3>
 						<p class="points-p">
 							Ідейні міркування, і навіть початок повсякденної роботи з
 							формування позиції.
 						</p>
 					</li>
-					<li>
+					<li class="pints-item">
 						<h3 class="points-title">Пунктуальність</h3>
 						<p class="points-p">
 							Завдання організації, особливо рамки і місце навчання кадрів тягне
 							у себе.
 						</p>
 					</li>
-					<li>
+					<li class="pints-item">
 						<h3 class="points-title">Планування</h3>
 						<p class="points-p">
 							Так само консультація з широким активом значною мірою зумовлює.
 						</p>
 					</li>
-					<li>
+					<li class="pints-item">
 						<h3 class="points-title">Сучасні технології</h3>
 						<p class="points-p">
 							Значимість цих проблем настільки очевидна, що реалізація планових
@@ -78,21 +85,21 @@
 			<section>
 				<h2 class="sub-title">Чим ми займаємося</h2>
 				<ul class="img-list">
-					<li>
+					<li class="img-list-item">
 						<img
 							src="./img/coding.jpg"
 							alt="Людина працює за компютером"
 							width="370"
 						/>
 					</li>
-					<li>
+					<li class="img-list-item">
 						<img
 							src="./img/mobile.jpg"
 							alt="Людина процює з телефоном"
 							width="370"
 						/>
 					</li>
-					<li>
+					<li class="img-list-item">
 						<img
 							src="./img/tablet.jpg"
 							alt="Людина працює з планшетом"
@@ -101,25 +108,25 @@
 					</li>
 				</ul>
 			</section>
-			<section>
-				<h2 class="sub-title">Наша команда</h2>
+			<section class="team-section">
+				<h2 class="sub-title sub-title-margin">Наша команда</h2>
 				<ul class="team-list">
-					<li>
+					<li class="team-list-item">
 						<img src="./img/ihor.jpg" alt="Ігор Дем'яненко" width="270" />
 						<h3 class="team-name">Ігор Дем'яненко</h3>
 						<p class="team-title">Product Designer</p>
 					</li>
-					<li>
+					<li class="team-list-item">
 						<img src="./img/olha.jpg" alt="Ольга Рєпіна" width="270" />
 						<h3 class="team-name">Ольга Рєпіна</h3>
 						<p class="team-title">Frontend Developer</p>
 					</li>
-					<li>
+					<li class="team-list-item">
 						<img src="./img/mykola.jpg" alt="Микола Тарасов" width="270" />
 						<h3 class="team-name">Микола Тарасов</h3>
 						<p class="team-title">Marketing</p>
 					</li>
-					<li>
+					<li class="team-list-item">
 						<img src="./img/mychaylo.jpg" alt="Михайло Єрмаков" width="270" />
 						<h3 class="team-name">Михайло Єрмаков</h3>
 						<p class="team-title">UI Designer</p>
@@ -129,13 +136,13 @@
 		</main>
 		<footer class="bottom">
 			<!-- Logo -->
-			<a href="./index.html" class="logo-link"
+			<a href="./index.html" class="logo-link-btm"
 				><span class="logo logo-left-btm">Web</span
 				><span class="logo logo-right-btm">Studio</span></a
 			>
 			<address>
-				<ul class="contacts-list">
-					<li>
+				<ul class="contacts-list-bottom">
+					<li class="bottom-list-item">
 						<a
 							href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
 							target="_blank"
@@ -144,13 +151,13 @@
 							>м. Київ, пр-т Лесі Українки, 26</a
 						>
 					</li>
-					<li>
+					<li class="bottom-list-item">
 						<!-- e-mail -->
 						<a href="mailto:info@example.com?subject=Hi" class="contacts"
 							>info@example.com</a
 						>
 					</li>
-					<li>
+					<li class="bottom-list-item">
 						<!-- phone number -->
 						<a href="tel:+380991111111" class="contacts">+38 099 111 11 11</a>
 					</li>
